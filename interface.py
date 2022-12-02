@@ -2,7 +2,6 @@ import delete
 import write
 import print1
 import edit
-import add
 import search
 
 while True:
@@ -14,7 +13,7 @@ while True:
     if value == 1:
         print1.print_all_to_console()
     elif value == 2:
-        add.reading
+        write.New_Entry('employees.csv')
     elif value == 3:
         search.Search_Entry('employees.csv')
     elif value == 4:
