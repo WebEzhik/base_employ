@@ -1,6 +1,6 @@
 def Search_Entry(file):
 
-    print(f'Введите элемент имя сотрудника для поиска в БД: ')
+    print(f'Введите имя для поиска: ')
     name = input()
    
     with open(file, 'r', encoding="utf-8") as data:
